@@ -4,8 +4,7 @@
 
 Code originally taken from https://github.com/appearin/appearin-sdk, License MIT.
 
-Only returns support as true if the current environment supports getUserMedia, VP8, video elements, RTCPeerConnections, and ICE candidates.
-
+Call a function that returns true if the current environment supports getUserMedia, VP8, video elements, RTCPeerConnections, and ICE candidates.
 
 ## Install
 
@@ -37,4 +36,4 @@ You'll almost never need this parameter.
 
 ## License
 
-MIT © [Appearin](https://github.com/appearin/appearin-sdk/)
+MIT © [Telenor Digital AS](https://github.com/appearin/appearin-sdk/)
