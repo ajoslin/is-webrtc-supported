@@ -1,8 +1,8 @@
+// Code taken from appearin-sdk
+// Copyright Appearin, license MIC
+
 var window = require('global/window')
 var document = require('global/document')
-
-// Code taken from appearin-sdk
-// Copyright (c) Appearin
 
 module.exports = checkSupport
 

@@ -2,6 +2,10 @@
 
 > Detect webrtc support in current environment
 
+Code originally taken from https://github.com/appearin/appearin-sdk, License MIT.
+
+Actually detects support, not userAgent strings.
+
 
 ## Install
 
@@ -15,31 +19,22 @@ $ npm install --save is-webrtc-supported
 ```js
 var isWebrtcSupported = require('is-webrtc-supported')
 
-isWebrtcSupported('input')
-//=> output
+isWebrtcSupported() // => true/false
 ```
 
 ## API
 
-#### `isWebrtcSupported(input, [options])` -> `output`
+#### `isWebrtcSupported([stunServer])` -> `boolean`
 
-##### input
+##### stunServer
 
-*Required*  
+*Optional*
 Type: `string`
 
-Lorem ipsum.
+Url of a stun server to check. Defaults to `stun:stun.l.google.com:19302`.
 
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+You'll almost never need this parameter.
 
 ## License
 
-MIT © [Andrew Joslin](http://ajoslin.com)
+MIT © [Appearin](https://github.com/appearin/appearin-sdk/)
