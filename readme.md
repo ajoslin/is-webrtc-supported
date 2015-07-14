@@ -4,7 +4,7 @@
 
 Code originally taken from https://github.com/appearin/appearin-sdk, License MIT.
 
-Actually detects support, not userAgent strings.
+Only returns support as true if the current environment supports getUserMedia, VP8, video elements, RTCPeerConnections, and ICE candidates.
 
 
 ## Install
