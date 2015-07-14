@@ -1,5 +1,5 @@
 // Code taken from appearin-sdk
-// Copyright Appearin, license MIC
+// Copyright Telenor Digital AS, license MIT
 
 var window = require('global/window')
 var document = require('global/document')
