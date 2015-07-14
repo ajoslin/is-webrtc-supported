@@ -1,0 +1,29 @@
+{
+  "name": "is-webrtc-supported",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Detect webrtc support in current environment",
+  "license": "MIT",
+  "repository": "ajoslin/is-webrtc-supported",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "detect webrtc support"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "global": "^4.3.0"
+  }
+}
