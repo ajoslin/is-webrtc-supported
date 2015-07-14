@@ -1,4 +1,4 @@
-# is-webrtc-supported [![Build Status](https://travis-ci.org/ajoslin/is-webrtc-supported.svg?branch=master)](https://travis-ci.org/ajoslin/is-webrtc-supported)
+# is-webrtc-supported
 
 > Detect webrtc support in current environment
 
