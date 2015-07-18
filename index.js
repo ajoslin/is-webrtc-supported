@@ -9,7 +9,7 @@ module.exports = checkSupport
 function checkSupport (/* optional */ stunServer) {
   try {
     var supportsVideoElement = !!document.createElement('video').canPlayType
-    var supportsVP8 = document.createElement('video').canPlayType('video/webm codecs="vp8", vorbis') === 'probably'
+    var supportsVP8 = document.createElement('video').canPlayType('video/webm; codecs="vp8", vorbis') === 'probably'
     var supportsGetUserMedia = !!(window.navigator.mozGetUserMedia ||
                                   window.navigator.webkitGetUserMedia ||
                                   window.navigator.msGetUserMedia ||
